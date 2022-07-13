@@ -1,2 +1,2 @@
-# sibelius-hof-challenge
+# HoF in JavaScript Booklet
  
