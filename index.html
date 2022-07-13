@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script src="./withLogger.js"></script>
+        <h1>High Order Functions - Examples</h1>
+        <ul>
+            <li>
+                <button onclick="fWithLogger()">
+                    Fetch with logger
+                </button>
+            </li>
+
+        </ul>
+
+
+        <script>
+            async function fWithLogger() {
+                const result = await fetchWithLogger("json", sessionStorageLogger, "https://jsonplaceholder.typicode.com/todos/1");
+                console.log(result);
+            }
+        </script>
+    </body>
+</html>
